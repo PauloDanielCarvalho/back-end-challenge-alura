@@ -5,7 +5,7 @@ from schemas.schemas import SendEmail
 async def send_email(email:SendEmail, password):
     conf = ConnectionConfig(
     MAIL_USERNAME = "portifoli.paulo@gmail.com",
-    MAIL_PASSWORD = "tovnldhkzhfjumpj",
+    MAIL_PASSWORD = "",
     MAIL_FROM = "portifoli.paulo@gmail.com",
     MAIL_PORT = 587,
     MAIL_SERVER = "smtp.gmail.com",
